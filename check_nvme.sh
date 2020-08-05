@@ -42,3 +42,4 @@ if [ $CRIT = "true" ]; then
 else
   echo "OK $(echo $DISKS | tr -d '\n')"
   exit 0
+fi
